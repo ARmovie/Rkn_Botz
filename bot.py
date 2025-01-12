@@ -25,7 +25,7 @@ class Rkn_AutoCaptionBot(Client):
         await super().start()
         me = await self.get_me()
         self.uptime = Rkn_Botz.BOT_UPTIME
-        self.force_channel = fluxxfiles.FORCE_SUB
+        self.force_channel = Rkn_Botz.FORCE_SUB
         if Rkn_Bots.FORCE_SUB:
             try:
                 link = await self.export_chat_invite_link(Rkn_Bots.FORCE_SUB)
