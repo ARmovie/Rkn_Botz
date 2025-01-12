@@ -16,7 +16,7 @@
         
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
+            "value": "fluxxfiles",
             "required": false 
         },
         "BOT_TOKEN": {
@@ -37,8 +37,8 @@
             "required": false
         },
         "START_PIC": {
-            "description": "Your Bot start cmd Pic from @Rkn_TelegraPH_Bot",
-            "value": "",
+            "description": "Your Bot start cmd Pic from @Rkn-botz",
+            "value": "https://graph.org/file/e9687e8686a68c936bf1b-31b8f28f7bce8df83d.jpg",
             "required": false
         }
     },
